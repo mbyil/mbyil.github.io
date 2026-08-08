@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Sheet — Jordan Ellis</title>
+<meta name="description" content="An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap-narrow">
+      <a href="../index.html#work" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        All projects
+      </a>
+      <p class="eyebrow">Project</p>
+      <h1>Contact Sheet</h1>
+      <p class="dek">An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site like the one this page lives on.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="spec-bar">
+      <div><strong>Role</strong><span>Developer</span></div>
+      <div><strong>Stack</strong><span>Static Site, Image Pipeline</span></div>
+      <div><strong>Year</strong><span>2025</span></div>
+      <div><strong>Links</strong><span><a href="#">Source ↗</a></span></div>
+    </div>
+  </div>
+
+  <figure class="cover">
+    <img src="https://picsum.photos/id/48/1400/700" alt="Grid of thumbnail photographs on a screen">
+  </figure>
+
+  <article class="wrap-narrow prose">
+    <h2>Overview</h2>
+    <p>Contact Sheet is a small command-line tool: point it at a folder of exported photos, and it generates a static gallery site — resized images, a lightbox, captions pulled from a simple text file — with no server and no database to maintain.</p>
+
+    <h2>The problem</h2>
+    <p>I wanted somewhere to put photos that wasn't a social platform's algorithm deciding who saw them, but every existing gallery tool either needed a CMS and hosting bill, or produced pages that loaded slowly because nothing was resized or compressed properly. I wanted the simplicity of a folder of files with the polish of a proper gallery.</p>
+
+    <h2>The approach</h2>
+    <p>The pipeline is intentionally boring: read a folder, generate two or three sizes of each image, write out plain HTML and CSS, done. Captions and ordering come from a small YAML file next to the photos so there's no separate admin interface to maintain — the file structure is the source of truth.</p>
+
+    <pre><code>photos/
+  001-dolomites.jpg
+  002-lisbon.jpg
+  gallery.yaml</code></pre>
+
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/id/1018/700/525" alt="Example generated gallery page">
+      <img src="https://picsum.photos/id/1041/700/525" alt="Example lightbox view">
+    </div>
+
+    <h2>The result</h2>
+    <p>The photography section of this site is generated with an early version of this tool. It's fast, it costs nothing to host, and updating it is just adding a file to a folder and re-running one command. Next up is support for basic EXIF display, so lens and settings can show up automatically instead of being typed in by hand.</p>
+  </article>
+</main>
+
+<nav class="updown-nav">
+  <a href="ledgerline.html" class="prev">
+    <span class="lbl">← Previous</span>
+    <span class="ttl">Ledgerline</span>
+  </a>
+  <a href="../index.html#work" class="next">
+    <span class="lbl">All projects →</span>
+    <span class="ttl">Back to the list</span>
+  </a>
+</nav>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <p><a href="../index.html#top">Back to top ↑</a></p>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

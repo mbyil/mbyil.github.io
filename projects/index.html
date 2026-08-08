@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Projects — Jordan Ellis</title>
+<meta name="description" content="Every project Jordan Ellis has built and written up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap">
+      <a href="../index.html#work" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        Home
+      </a>
+      <p class="eyebrow">Projects</p>
+      <h1>All projects</h1>
+      <p class="dek">Everything I've built and written up — work projects, side projects, and the odd tool built to fix one specific annoyance.</p>
+    </div>
+  </header>
+
+  <section style="border-bottom:none; padding-top: 72px;">
+    <div class="wrap">
+      <!-- EDIT: add a new <article class="card"> block here for each new project — keep it in sync with /projects/[slug].html -->
+      <div class="work-grid">
+        <article class="card reveal">
+          <a href="routewise.html" style="display:contents;">
+            <div class="thumb"><img src="https://picsum.photos/id/180/600/375" alt="Routewise project screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <span class="card-index">PROJECT — 01</span>
+              <h3>Routewise</h3>
+              <p>A trip-planning tool that turns a rough list of places into an optimized day-by-day route, built to replace my own spreadsheet habit.</p>
+              <div class="card-tags"><span>React</span><span>Node</span><span>Maps API</span></div>
+              <span class="card-link">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <a href="ledgerline.html" style="display:contents;">
+            <div class="thumb"><img src="https://picsum.photos/id/119/600/375" alt="Ledgerline project screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <span class="card-index">PROJECT — 02</span>
+              <h3>Ledgerline</h3>
+              <p>A lightweight expense tracker with a CLI-first workflow, built because every app I tried wanted me to open a browser to log a coffee.</p>
+              <div class="card-tags"><span>Python</span><span>SQLite</span><span>CLI</span></div>
+              <span class="card-link">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <a href="contact-sheet.html" style="display:contents;">
+            <div class="thumb"><img src="https://picsum.photos/id/48/600/375" alt="Contact Sheet project screenshot" loading="lazy"></div>
+            <div class="card-body">
+              <span class="card-index">PROJECT — 03</span>
+              <h3>Contact Sheet</h3>
+              <p>An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site.</p>
+              <div class="card-tags"><span>Static Site</span><span>Image Pipeline</span></div>
+              <span class="card-link">View project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <p><a href="../index.html#top">Back to top ↑</a></p>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

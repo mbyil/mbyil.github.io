@@ -1,0 +1,123 @@
+<!--
+  HOW TO USE THIS TEMPLATE
+  1. Save a copy of this file as articles/your-article-slug.html
+  2. Fill in every <!-- EDIT: --> spot below with your real content.
+  3. Add a matching entry to assets/site.js (in the "articles" array) with
+     the SAME slug as this filename — that's what makes it show up in the
+     homepage preview and on articles/index.html. That's the only other
+     file you need to touch; the homepage and the "all articles" page both
+     read from site.js automatically.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- EDIT: page title -->
+<title>Article Title — Jordan Ellis</title>
+<meta name="description" content="Article dek / one-line summary goes here.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://picsum.photos">
+<link rel="dns-prefetch" href="https://picsum.photos">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<noscript>
+  <div id="no-js-notice">
+    <div class="no-js-box">
+      <p class="tag-label">Heads up</p>
+      <h2>JavaScript is turned off</h2>
+      <p class="msg">This site uses a bit of JavaScript — for the project carousel, the photo lightbox, and loading in the article and project previews. With it disabled those pieces won't work and a few sections may look empty, but every article and project page is still fully readable.</p>
+      <a href="#no-js-notice" class="btn btn-primary">Understood</a>
+    </div>
+  </div>
+</noscript>
+
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap-narrow">
+      <a href="../index.html#writing" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        <span class="label">All writing</span>
+      </a>
+      <p class="eyebrow">Article</p>
+      <!-- EDIT: article title -->
+      <h1>Article Title Goes Here</h1>
+      <!-- EDIT: one-sentence dek / summary -->
+      <p class="dek">A one- or two-sentence summary of what this piece is about — shown here and in the writing list on the homepage.</p>
+      <div class="detail-meta">
+        <div><strong>Published</strong><span class="val">Month Year</span></div>
+        <div><strong>Read time</strong><span class="val">X min</span></div>
+        <div><strong>Category</strong><span class="val">Engineering</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- EDIT: cover image — delete this whole <figure> if the article doesn't need one -->
+  <figure class="wrap-narrow cover">
+    <img src="https://picsum.photos/id/180/1400/700" alt="Descriptive alt text for the cover image">
+  </figure>
+
+  <article class="wrap-narrow prose">
+    <!-- EDIT: article body — paste your writing here.
+         Use these tags as needed:
+         <p>paragraph</p>
+         <h2>section heading</h2>
+         <h3>sub-heading</h3>
+         <blockquote>pull quote</blockquote>
+         <ul><li>list item</li></ul>
+         <figure><img src="..." alt="..."><figcaption>caption</figcaption></figure>
+         <pre><code>code block</code></pre>
+         <hr> for a section break
+    -->
+    <p>Start writing here. Give this paragraph to Claude along with your draft and ask it to format it into this template — Claude will slot your text into these tags, keep quotes under the copyright-safe length, and write a dek if you don't have one.</p>
+
+    <h2>A section heading</h2>
+    <p>Body copy continues here.</p>
+
+    <blockquote>A pull quote can go here if a line deserves emphasis.</blockquote>
+
+    <p>More body copy.</p>
+  </article>
+</main>
+
+<!-- EDIT: prev/next — point to the articles that come before/after this one chronologically. Delete a side if there isn't one yet. -->
+<nav class="updown-nav">
+  <a href="#" class="prev">
+    <span class="lbl">← Previous</span>
+    <span class="ttl">Previous Article Title</span>
+  </a>
+  <a href="#" class="next">
+    <span class="lbl">Next →</span>
+    <span class="ttl">Next Article Title</span>
+  </a>
+</nav>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <p><a href="../index.html#top">Back to top ↑</a></p>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

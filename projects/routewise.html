@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Routewise — Jordan Ellis</title>
+<meta name="description" content="A trip-planning tool that turns a rough list of places into an optimized day-by-day route.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://picsum.photos">
+<link rel="dns-prefetch" href="https://picsum.photos">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+<noscript>
+  <div id="no-js-notice">
+    <div class="no-js-box">
+      <p class="tag-label">Heads up</p>
+      <h2>JavaScript is turned off</h2>
+      <p class="msg">This site uses a bit of JavaScript — for the project carousel, the photo lightbox, and loading in the article and project previews. With it disabled those pieces won't work and a few sections may look empty, but every article and project page is still fully readable.</p>
+      <a href="#no-js-notice" class="btn btn-primary">Understood</a>
+    </div>
+  </div>
+</noscript>
+
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap-narrow">
+      <a href="../index.html#work" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        <span class="label">All projects</span>
+      </a>
+      <p class="eyebrow">Project</p>
+      <!-- EDIT: project name -->
+      <h1>Routewise</h1>
+      <!-- EDIT: one- or two-sentence summary -->
+      <p class="dek">A trip-planning tool that turns a rough list of places into an optimized day-by-day route, built to replace my own spreadsheet habit.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <!-- EDIT: role / stack / year / links — delete a cell if it doesn't apply -->
+    <div class="spec-bar">
+      <div><strong>Role</strong><span>Designer &amp; Developer</span></div>
+      <div><strong>Stack</strong><span>React, Node, Maps API</span></div>
+      <div><strong>Year</strong><span>2026</span></div>
+      <div><strong>Links</strong><span><a href="#">Live site ↗</a> &nbsp;/&nbsp; <a href="#">Source ↗</a></span></div>
+    </div>
+  </div>
+
+  <!-- EDIT: cover image -->
+  <figure class="wrap-narrow cover">
+    <img src="https://picsum.photos/id/180/1400/700" alt="Routewise app interface showing a trip itinerary">
+  </figure>
+
+      <!-- EDIT: case-study body below — replace with your write-up -->
+  <article class="wrap-narrow prose">
+    <h2>Overview</h2>
+    <p>Every trip I planned started the same way: a spreadsheet with a list of places, a lot of tab-switching to a map to guess at distances, and a lot of manual reshuffling when I realized two "nearby" places were actually forty minutes apart. Routewise exists to skip that part.</p>
+
+    <p>You paste in a list of places you want to visit, and it lays them out across however many days you're there, grouping by proximity and respecting rough opening hours, so the plan you end up with is one you could actually walk without doubling back across town.</p>
+
+    <h2>The problem</h2>
+    <p>Trip-planning tools I tried either wanted a lot of manual setup before they were useful, or optimized for "prettiest itinerary" over "itinerary you'd actually follow." I wanted something closer to a scheduling algorithm than a scrapbook — optimize the boring part, leave the interesting decisions to me.</p>
+
+    <h2>The approach</h2>
+    <p>The core of it is a routing pass that clusters places by geographic proximity per day, then orders each day's stops to minimize backtracking, using the Maps API for real travel times rather than straight-line distance. The interface stays intentionally plain — a day-by-day list, drag to reorder, a map alongside for a sanity check.</p>
+
+    <!-- EDIT: optional screenshot grid — delete if not needed -->
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/id/119/700/525" alt="Day view of a Routewise itinerary">
+      <img src="https://picsum.photos/id/143/700/525" alt="Map view showing clustered stops">
+    </div>
+
+    <h2>The result</h2>
+    <p>I've used it to plan four trips of my own so far, and it's cut trip-planning time from a couple of evenings down to about twenty minutes of pasting in place names and nudging the order. The next thing on the list is handling multi-city trips, where the day-clustering logic needs to account for a change of base entirely.</p>
+  </article>
+</main>
+
+<!-- EDIT: prev/next links — point to the projects before/after this one -->
+<nav class="updown-nav">
+  <a href="../index.html#work" class="prev">
+    <span class="lbl">← All projects</span>
+    <span class="ttl">Back to the list</span>
+  </a>
+  <a href="ledgerline.html" class="next">
+    <span class="lbl">Next →</span>
+    <span class="ttl">Ledgerline</span>
+  </a>
+</nav>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <p><a href="../index.html#top">Back to top ↑</a></p>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

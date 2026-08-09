@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The boring parts of shipping a side project — Jordan Ellis</title>
+<meta name="description" content="Deployment, monitoring, and the unglamorous 20% of work that decides whether a weekend project survives contact with real users.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://picsum.photos">
+<link rel="dns-prefetch" href="https://picsum.photos">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body id="top">
+
+<noscript>
+  <div id="no-js-notice">
+    <div class="no-js-box">
+      <p class="tag-label">Heads up</p>
+      <h2>JavaScript is turned off</h2>
+      <p class="msg">This site uses a bit of JavaScript — for the project carousel, the photo lightbox, and loading in the article and project previews. With it disabled those pieces won't work and a few sections may look empty, but every article and project page is still fully readable.</p>
+      <a href="#no-js-notice" class="btn btn-primary">Understood</a>
+    </div>
+  </div>
+</noscript>
+
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap-narrow">
+      <a href="../index.html#writing" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        <span class="label">All writing</span>
+      </a>
+      <p class="eyebrow">Article</p>
+      <!-- EDIT: article title -->
+      <h1>The boring parts of shipping a side project</h1>
+      <!-- EDIT: one-sentence dek / summary -->
+      <p class="dek">Deployment, monitoring, and the unglamorous 20% of work that decides whether a weekend project survives contact with real users.</p>
+      <!-- EDIT: published date, read time, category -->
+      <div class="detail-meta">
+        <div><strong>Published</strong><span class="val">January 2026</span></div>
+        <div><strong>Read time</strong><span class="val">8 min</span></div>
+        <div><strong>Category</strong><span class="val">Engineering</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- EDIT: cover image — delete this whole <figure> if not needed -->
+  <figure class="wrap-narrow cover">
+    <img src="https://picsum.photos/id/110/1400/700" alt="Server room cables, close up">
+  </figure>
+
+      <!-- EDIT: article body below — replace with your writing -->
+  <article class="wrap-narrow prose">
+    <p>The fun 80% of a side project is the part everyone talks about: picking the stack, sketching the data model, getting the first working version on your own machine. The other 20% is the reason most side projects never make it past that stage, and almost nobody writes about it because it isn't interesting to write about.</p>
+
+    <h2>The list nobody enjoys</h2>
+    <p>Here's what actually stood between "works on my laptop" and "a stranger can use this without asking me for help":</p>
+    <ul>
+      <li>A deploy process that doesn't require me to remember six manual steps.</li>
+      <li>Error tracking, so I hear about a crash before a user emails me about it.</li>
+      <li>A backup strategy for the database, tested at least once by actually restoring it.</li>
+      <li>Rate limiting on anything that touches an API I'm paying for.</li>
+      <li>A privacy policy, even a short one, because I was asking for an email address.</li>
+    </ul>
+
+    <p>None of this is technically hard. It's just tedious, and tedious work is easy to defer indefinitely when nobody's forcing the deadline. I got in the habit of treating these five items as part of "done," not as follow-up work, and it changed how many of my projects actually shipped.</p>
+
+    <h2>The shift that helped most</h2>
+    <blockquote>A project isn't finished when it works. It's finished when it can fail safely without you standing next to it.</blockquote>
+
+    <p>Once I started asking "what happens the first time this breaks while I'm not watching," a lot of the boring work stopped feeling optional. Monitoring isn't a nice-to-have feature — it's the thing that tells you whether any of the fun work you did actually holds up.</p>
+
+    <h2>What I'd tell someone starting today</h2>
+    <p>Build the fun part first, always — that's how you know if the idea is worth the rest. But budget real time for the boring 20%, and don't call it done until you've watched it fail once on purpose and recover.</p>
+  </article>
+</main>
+
+<!-- EDIT: prev/next links — point to the articles before/after this one chronologically -->
+<nav class="updown-nav">
+  <a href="what-shooting-film-taught-me-about-writing-code.html" class="prev">
+    <span class="lbl">← Previous</span>
+    <span class="ttl">What shooting film taught me about writing code</span>
+  </a>
+  <a href="why-i-stopped-trusting-my-own-code-reviews.html" class="next">
+    <span class="lbl">Next →</span>
+    <span class="ttl">Why I stopped trusting my own code reviews</span>
+  </a>
+</nav>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <a href="#top" class="back-to-top" aria-label="Back to top">
+  <span class="label">Back to top</span>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 15l6-6 6 6"/></svg>
+</a>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

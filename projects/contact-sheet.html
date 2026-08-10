@@ -51,9 +51,9 @@
       </a>
       <p class="eyebrow">Project</p>
       <!-- EDIT: project name -->
-      <h1>Contact Sheet</h1>
+      <h1>Crypthon</h1>
       <!-- EDIT: one- or two-sentence summary -->
-      <p class="dek">An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site like the one this page lives on.</p>
+      <p class="dek">An open-source encryption + backup tool that just works. No questions.</p>
     </div>
   </header>
 
@@ -61,9 +61,9 @@
     <!-- EDIT: role / stack / year / links — delete a cell if it doesn't apply -->
     <div class="spec-bar">
       <div><strong>Role</strong><span>Developer</span></div>
-      <div><strong>Stack</strong><span>Static Site, Image Pipeline</span></div>
+      <div><strong>Stack</strong><span>Python, RSA, AES</span></div>
       <div><strong>Year</strong><span>2025</span></div>
-      <div><strong>Links</strong><span><a href="#">Source ↗</a></span></div>
+      <div><strong>Links</strong><span><a href="https://github.com/mbyil/Crypthon">Source ↗</a></span></div>
     </div>
   </div>
 
@@ -75,13 +75,13 @@
       <!-- EDIT: case-study body below — replace with your write-up -->
   <article class="wrap-narrow prose">
     <h2>Overview</h2>
-    <p>Contact Sheet is a small command-line tool: point it at a folder of exported photos, and it generates a static gallery site — resized images, a lightbox, captions pulled from a simple text file — with no server and no database to maintain.</p>
+    <p>Crypthon is a small bare-bones GUI tool: point it at a folder of any kind, and it encrypts all of them - using hybrid encryption - and then upload them all to any cloud service you like, with no server and no database to maintain.</p>
 
     <h2>The problem</h2>
-    <p>I wanted somewhere to put photos that wasn't a social platform's algorithm deciding who saw them, but every existing gallery tool either needed a CMS and hosting bill, or produced pages that loaded slowly because nothing was resized or compressed properly. I wanted the simplicity of a folder of files with the polish of a proper gallery.</p>
+    <p>I wanted an easier way to backup my data safely then to encrypt every file one by one and anually uploading them that wasn't a subscription based or server-side application. But instead works on the directives of the user and is entirely customizable.</p>
 
     <h2>The approach</h2>
-    <p>The pipeline is intentionally boring: read a folder, generate two or three sizes of each image, write out plain HTML and CSS, done. Captions and ordering come from a small YAML file next to the photos so there's no separate admin interface to maintain — the file structure is the source of truth.</p>
+    <p>The GUI interface is intentionally boring: create a key pair, select a folder or a file, generate the encrypted versions of each file and choose what cloud solution you wanted them to be uploaded. Ordering and instructions come from the settings user selects before runnning the program. The user is the source of truth and is in full control of what happens to the files.</p>
 
     <pre><code>photos/
   001-dolomites.jpg
@@ -95,7 +95,7 @@
     </div>
 
     <h2>The result</h2>
-    <p>The photography section of this site is generated with an early version of this tool. It's fast, it costs nothing to host, and updating it is just adding a file to a folder and re-running one command. Next up is support for basic EXIF display, so lens and settings can show up automatically instead of being typed in by hand.</p>
+    <p>You don't need upload your files one by one or wonder if the clooud platform really is end to end encrypted. You can just point Crypthon at a folder and let it do the rest No need to worry about your backups and their safety anymore. It's fast, efficient and easy to use.</p>
   </article>
 </main>
 

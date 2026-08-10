@@ -50,7 +50,7 @@ window.SITE_DATA = {
     {
       slug: "crypthon",
       title: "Crypthon",
-      blurb: "A file encryption tool that uploads the encrypted files to a cloud platform automatically, that doesn't require any login or payment. It just works.",
+      blurb: "An encryption tool that uploads the encrypted files to a cloud platform of your choice automatically. No login no payment, just works.",
       tags: ["Python", "Hybrid Encryption", "Cloud API"],
       thumb: "https://picsum.photos/id/48/600/375",
       thumbAlt: "Contact Sheet project screenshot"

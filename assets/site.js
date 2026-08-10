@@ -50,7 +50,7 @@ window.SITE_DATA = {
     {
       slug: "crypthon",
       title: "Crypthon",
-      blurb: "An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site.",
+      blurb: "A file encryption tool that uploads the encrypted files to a cloud platform automatically, that doesn't require any login or payment. It just works.",
       tags: ["Python", "Hybrid Encryption", "Cloud API"],
       thumb: "https://picsum.photos/id/48/600/375",
       thumbAlt: "Contact Sheet project screenshot"

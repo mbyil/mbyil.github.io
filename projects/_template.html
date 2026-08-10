@@ -1,0 +1,159 @@
+<!--
+  HOW TO USE THIS TEMPLATE
+  1. Save a copy of this file as projects/your-project-slug.html
+  2. Fill in every <!-- EDIT: --> spot below with your real content.
+  3. Add a matching entry to assets/site.js (in the "projects" array) with
+     the SAME slug as this filename — that's what makes it show up in the
+     homepage carousel and on projects/index.html. That's the only other
+     file you need to touch; the homepage and the "all projects" page both
+     read from site.js automatically.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- EDIT: page title -->
+<title>Project Name — Jordan Ellis</title>
+<meta name="description" content="Project one-line summary goes here.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://picsum.photos">
+<link rel="dns-prefetch" href="https://picsum.photos">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body id="top">
+
+<noscript>
+  <div id="no-js-notice">
+    <div class="no-js-box">
+      <p class="tag-label">Heads up</p>
+      <h2>JavaScript is turned off</h2>
+      <p class="msg">This site uses a bit of JavaScript — for the project carousel, the photo lightbox, and loading in the article and project previews. With it disabled those pieces won't work and a few sections may look empty, but every article and project page is still fully readable.</p>
+      <a href="#no-js-notice" class="btn btn-primary">Understood</a>
+    </div>
+  </div>
+</noscript>
+
+
+<header class="site">
+  <div class="wrap navbar">
+    <a href="../index.html#top" class="logo">Jordan<span>.</span>Ellis</a>
+    <nav class="links" id="navLinks">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a href="../index.html#photography">Photography</a>
+      <a href="../index.html#contact" class="nav-cta">Get in touch</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <header class="detail-header">
+    <div class="wrap-narrow">
+      <a href="../index.html#work" class="back-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+        <span class="label">All projects</span>
+      </a>
+      <p class="eyebrow">Project</p>
+      <!-- EDIT: project name -->
+      <h1>Project Name</h1>
+      <!-- EDIT: one- or two-sentence summary -->
+      <p class="dek">What the project is and the problem it solves, in a sentence or two.</p>
+    </div>
+  </header>
+
+  <!-- EDIT: role / stack / year / links — delete a cell if it doesn't apply -->
+  <div class="wrap">
+    <div class="spec-bar">
+      <div><strong>Role</strong><span>Designer &amp; Developer</span></div>
+      <div><strong>Stack</strong><span>React, Node, PostgreSQL</span></div>
+      <div><strong>Year</strong><span>2026</span></div>
+      <div><strong>Links</strong><span><a href="#">Live site ↗</a> &nbsp;/&nbsp; <a href="#">Source ↗</a></span></div>
+    </div>
+  </div>
+
+  <!-- EDIT: cover image. Using a local file? Put it in /images at the site root, then
+       reference it here as ../images/your-file.jpg — this page lives one folder down
+       from the root (same pattern as the ../assets/styles.css link up in <head>). -->
+  <figure class="wrap-narrow cover">
+    <img src="https://picsum.photos/id/180/1400/700" alt="Descriptive alt text for the cover image">
+  </figure>
+
+  <article class="wrap-narrow prose">
+    <!-- EDIT: case-study body — paste your write-up here.
+         A typical shape: Overview, Problem, Approach, Result — but use whatever structure fits.
+         Same tags as the article template: <p> <h2> <h3> <blockquote> <ul> <figure><figcaption> <pre><code> <hr>
+
+         VIDEO — two options, see the example further down (e.g. a demo walkthrough under "The approach"):
+         - Embedded (YouTube/Vimeo): wrap an <iframe> in <div class="video-embed">
+         - Self-hosted file: a plain <video controls> tag
+    -->
+    <h2>Overview</h2>
+    <p>What the project is, who it's for, and why you built it.</p>
+
+    <h2>The problem</h2>
+    <p>What wasn't working, or what gap this fills.</p>
+
+    <h2>The approach</h2>
+    <p>How you built it — key decisions, trade-offs, anything worth explaining.</p>
+
+    <!-- EDIT: optional demo video — delete whichever option (or both) you don't need -->
+
+    <!-- Option A: embedded YouTube/Vimeo video (responsive, scales with the column) -->
+    <figure>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Demo walkthrough" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <figcaption>A quick walkthrough of the core flow.</figcaption>
+    </figure>
+
+    <!-- Option B: self-hosted video file -->
+    <figure>
+      <video controls poster="path/to/poster-image.jpg">
+        <source src="path/to/demo.mp4" type="video/mp4">
+        Your browser doesn't support embedded video. <a href="path/to/demo.mp4">Download the video</a> instead.
+      </video>
+      <figcaption>A quick walkthrough of the core flow.</figcaption>
+    </figure>
+
+    <!-- EDIT: optional screenshot grid — delete if not needed. Local images: use
+         ../images/your-file.jpg — see the cover image note above. -->
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/id/119/700/525" alt="Screenshot description">
+      <img src="https://picsum.photos/id/48/700/525" alt="Screenshot description">
+    </div>
+
+    <h2>The result</h2>
+    <p>What shipped, what you'd do differently, what's next.</p>
+  </article>
+</main>
+
+<!-- EDIT: prev/next — point to the projects before/after this one. Delete a side if there isn't one yet. -->
+<nav class="updown-nav">
+  <a href="#" class="prev">
+    <span class="lbl">← Previous</span>
+    <span class="ttl">Previous Project</span>
+  </a>
+  <a href="#" class="next">
+    <span class="lbl">Next →</span>
+    <span class="ttl">Next Project</span>
+  </a>
+</nav>
+
+<footer class="site-footer wrap">
+  <p>&copy; <span id="year"></span> Jordan Ellis. Built by hand, not a template.</p>
+  <a href="#top" class="back-to-top" aria-label="Back to top">
+  <span class="label">Back to top</span>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 15l6-6 6 6"/></svg>
+</a>
+</footer>
+
+<script src="../assets/main.js"></script>
+</body>
+</html>

@@ -122,11 +122,8 @@ window.SITE_DATA = {
 
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0001.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0002.jpg", alt: "Mountain ridge at sunrise" },
-    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0003.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0004.jpg", alt: "Mountain ridge at sunrise" },
-    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0005.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0006.jpg", alt: "Mountain ridge at sunrise" },
-    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0007.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0008.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0009.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0010.jpg", alt: "Mountain ridge at sunrise" },

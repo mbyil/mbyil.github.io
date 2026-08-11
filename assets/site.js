@@ -60,27 +60,17 @@ window.SITE_DATA = {
       thumbAlt: "Ledgerline project screenshot"
     },
     {
-      slug: "contact-sheet",
-      title: "Contact Sheet",
-      blurb: "An open-source gallery generator that turns a folder of RAW exports into a static, fast-loading photo site.",
-      tags: ["Static Site", "Image Pipeline"],
+      slug: "crypthon",
+      title: "Crypthon",
+      blurb: "A simple GUI based security tool that uploads the files it encrypts to a cloud platform of your choice automatically. No login no payment, just works.",
+      tags: ["Python", "Hybrid Encryption", "Cloud API"],
       thumb: "https://picsum.photos/id/48/600/375",
-      thumbAlt: "Contact Sheet project screenshot"
+      thumbAlt: "Crypthon project screenshot"
     }
   ],
 
   // Newest first — the homepage shows the first 4.
   articles: [
-    {
-      slug: "why-i-stopped-trusting-my-own-code-reviews",
-      title: "Why I stopped trusting my own code reviews",
-      excerpt: "A look at the review habits that felt thorough but were quietly missing the same category of bug, every time.",
-      dateLabel: "MAR 2026",
-      readTime: "6 MIN",
-      category: "ENGINEERING",
-      thumb: "https://picsum.photos/id/60/480/320",
-      thumbAlt: "Rows of code on a monitor in low light"
-    },
     {
       slug: "the-boring-parts-of-shipping-a-side-project",
       title: "The boring parts of shipping a side project",
@@ -100,16 +90,6 @@ window.SITE_DATA = {
       category: "PHOTOGRAPHY",
       thumb: "https://picsum.photos/id/1039/480/320",
       thumbAlt: "Quiet forest path in soft light"
-    },
-    {
-      slug: "a-field-guide-to-reading-other-peoples-systems",
-      title: "A field guide to reading other people's systems",
-      excerpt: "Notes on getting oriented in an unfamiliar codebase quickly, without waiting for someone to explain it to you.",
-      dateLabel: "SEP 2025",
-      readTime: "7 MIN",
-      category: "ENGINEERING",
-      thumb: "https://picsum.photos/id/127/480/320",
-      thumbAlt: "Tangle of cables and connections"
     }
   ],
 

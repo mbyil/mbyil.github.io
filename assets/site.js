@@ -99,6 +99,8 @@ window.SITE_DATA = {
   // "dateSort" is "YYYY-MM" and is what groups photos by month within a filtered tab
   // (so a second trip to the same place shows up as its own cluster, not mixed in).
   photos: [
+    { cap: "Kizilcahamam, Ankara", country: "Turkey", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0021.JPG", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
+    /*
     { cap: "Dolomites, Italy", country: "Italy", dateLabel: "Sep 2025", dateSort: "2025-09", src: "https://picsum.photos/id/1018/900/900", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
     { cap: "Lisbon, Portugal", country: "Portugal", dateLabel: "Jul 2025", dateSort: "2025-07", src: "https://picsum.photos/id/1041/500/500", alt: "Coastal cliffs", preview: true, best: true },
     { cap: "Kyoto, Japan", country: "Japan", dateLabel: "Nov 2024", dateSort: "2024-11", src: "https://picsum.photos/id/1039/500/500", alt: "Quiet forest path", preview: true, best: true },
@@ -118,6 +120,7 @@ window.SITE_DATA = {
     // data — filter by Italy or Japan to see two separate trips, clustered by month.
     { cap: "Rome, Italy", country: "Italy", dateLabel: "Apr 2022", dateSort: "2022-04", src: "https://picsum.photos/id/1069/500/500", alt: "Ancient ruins under a clear sky" },
     { cap: "Tokyo, Japan", country: "Japan", dateLabel: "Aug 2021", dateSort: "2021-08", src: "https://picsum.photos/id/1071/500/500", alt: "Busy city street at night" }
+    */
   ]
 
 };

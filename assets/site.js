@@ -99,7 +99,75 @@ window.SITE_DATA = {
   // "dateSort" is "YYYY-MM" and is what groups photos by month within a filtered tab
   // (so a second trip to the same place shows up as its own cluster, not mixed in).
   photos: [
-    { cap: "Kizilcahamam, Ankara", country: "Turkey", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0021.JPG", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0160.jpg", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0021.JPG", alt: "Road on the left going through a forest" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0022.JPG", alt: "Thick forest lining with big trees" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0030.JPG", alt: "Greeen mountain side with clear sky" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0068.JPG", alt: "Mountain photo from another mountain" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0116.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0136.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0153.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0156.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0147.JPG", alt: "Mountain ridge at sunrise", preview: true, best:true },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0171.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0188.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0199.jpg", alt: "Mountain ridge at sunrise", best: true },
+    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0230.JPG", alt: "Mountain ridge at sunrise" },
+
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0130.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0168.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0184.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0194.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0207.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0215.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0219.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0230.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0232.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0253.JPG", alt: "Mountain ridge at sunrise" },
+
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0001.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0002.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0003.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0004.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0005.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0006.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0007.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0008.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0009.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0010.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0011.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0012.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0013.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },
+    { cap: "Sarikamis, Kars", country: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0014.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },
+
+    { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Jul 2025", dateSort: "2025-07", src: "images/photography-images/JULY-2025-ANITKABIR/DSC_0038.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
+
+    { cap: "Mudanya, Bursa", country: "Mudanya", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-BURSA/DSC_0037.JPG", alt: "Mountain ridge at sunrise" },
+
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0005.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0006.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0009.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0014.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0018.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0019.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0025.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0026.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0032.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0036.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0050.JPG", alt: "Mountain ridge at sunrise" },
+
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0019.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0046.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0047.JPG", alt: "Mountain ridge at sunrise", preview: true, best:true },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0049.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0077.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0097.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0100.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0106.JPG", alt: "Mountain ridge at sunrise" },
+    { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0200.jpg", alt: "Mountain ridge at sunrise" }
+
+
+
     /*
     { cap: "Dolomites, Italy", country: "Italy", dateLabel: "Sep 2025", dateSort: "2025-09", src: "https://picsum.photos/id/1018/900/900", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
     { cap: "Lisbon, Portugal", country: "Portugal", dateLabel: "Jul 2025", dateSort: "2025-07", src: "https://picsum.photos/id/1041/500/500", alt: "Coastal cliffs", preview: true, best: true },

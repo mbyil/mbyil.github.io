@@ -101,18 +101,13 @@ window.SITE_DATA = {
   photos: [
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0160.jpg", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0021.JPG", alt: "Road on the left going through a forest" },
-    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0022.JPG", alt: "Thick forest lining with big trees" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0030.JPG", alt: "Greeen mountain side with clear sky" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0068.JPG", alt: "Mountain photo from another mountain" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0116.JPG", alt: "Mountain ridge at sunrise" },
-    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0136.JPG", alt: "Mountain ridge at sunrise" },
-    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0153.JPG", alt: "Mountain ridge at sunrise" },
-    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0156.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0147.JPG", alt: "Mountain ridge at sunrise", preview: true, best:true },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0171.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0188.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0199.jpg", alt: "Mountain ridge at sunrise", best: true },
-    { cap: "Kizilcahamam, Ankara", country: "Kızılcahamam", dateLabel: "Apr 2026", dateSort: "2026-04", src: "images/photography-images/APRIL-2026-SOGUKSU/DSC_0230.JPG", alt: "Mountain ridge at sunrise" },
 
     { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0130.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
     { cap: "Anitkabir, Ankara", country: "Anıtkabir", dateLabel: "Aug 2025", dateSort: "2025-08", src: "images/photography-images/AUGUST-2025-ANITKABIR/DSC_0168.JPG", alt: "Mountain ridge at sunrise" },
@@ -165,8 +160,6 @@ window.SITE_DATA = {
     { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0100.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0106.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0200.jpg", alt: "Mountain ridge at sunrise" }
-
-
 
     /*
     { cap: "Dolomites, Italy", country: "Italy", dateLabel: "Sep 2025", dateSort: "2025-09", src: "https://picsum.photos/id/1018/900/900", alt: "Mountain ridge at sunrise", preview: true, big: true, best: true },

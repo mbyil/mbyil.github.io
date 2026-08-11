@@ -142,10 +142,8 @@ window.SITE_DATA = {
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0014.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0018.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0019.JPG", alt: "Mountain ridge at sunrise" },
-    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0025.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0026.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0032.JPG", alt: "Mountain ridge at sunrise" },
-    { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0036.JPG", alt: "Mountain ridge at sunrise" },
     { cap: "Atatürk Köşkü, Yalova", country: "Atatürk Köşkü", dateLabel: "Jun 2025", dateSort: "2025-06", src: "images/photography-images/JUNE-2025-YALOVA/DSC_0050.JPG", alt: "Mountain ridge at sunrise" },
 
     { cap: "Eymir Gölü, Ankara", country: "Eymir", dateLabel: "May 2026", dateSort: "2026-05", src: "images/photography-images/MAY-2026-EYMIR/DSC_0019.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },

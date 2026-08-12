@@ -128,7 +128,12 @@ window.SITE_DATA = {
     { cap: "Sarikamis, Kars", country: "Turkey", city: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0011.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Turkey", city: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0012.jpg", alt: "Mountain ridge at sunrise" },
     { cap: "Sarikamis, Kars", country: "Turkey", city: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0013.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },
-    { cap: "Sarikamis, Kars", country: "Turkey", city: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0014.jpg", alt: "Mountain ridge at sunrise", preview: true, best: true },
+    { cap: "Sarikamis, Kars", country: "Turkey", city: "Sarıkamış", dateLabel: "Jan 2026", dateSort: "2026-01", src: "images/photography-images/JANUARY-2026-SARIKAMIS/DSC_0014.jpg", alt: "Mountain ridge at sunrise", best: true },
+
+    { cap: "Bodrum, Muğla", country: "Turkey", city: "Bodrum", dateLabel: "JUL 2026", dateSort: "2026-07", src: "images/photography-images/JULY-2026-MUGLA/DSC_0001.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Bodrum, Muğla", country: "Turkey", city: "Bodrum", dateLabel: "JUL 2026", dateSort: "2026-07", src: "images/photography-images/JULY-2026-MUGLA/DSC_0002.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Bodrum, Muğla", country: "Turkey", city: "Bodrum", dateLabel: "JUL 2026", dateSort: "2026-07", src: "images/photography-images/JULY-2026-MUGLA/DSC_0003.jpg", alt: "Mountain ridge at sunrise" },
+    { cap: "Bodrum, Muğla", country: "Turkey", city: "Bodrum", dateLabel: "JUL 2026", dateSort: "2026-07", src: "images/photography-images/JULY-2026-MUGLA/DSC_0004.jpg", alt: "Mountain ridge at sunrise", preview: true },
 
     { cap: "Anitkabir, Ankara", country: "Turkey", city: "Anıtkabir", dateLabel: "Jul 2025", dateSort: "2025-07", src: "images/photography-images/JULY-2025-ANITKABIR/DSC_0038.JPG", alt: "Mountain ridge at sunrise", preview: true, best: true },
 

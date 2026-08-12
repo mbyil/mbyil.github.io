@@ -55,7 +55,7 @@
       </a>
       <p class="eyebrow">Photography</p>
       <h1>Full contact sheet</h1>
-      <p class="dek">Every frame, roughly in the order I shot them. Filter by where it was taken, or jump straight to the best ones. Click any photo to look closer.</p>
+      <p class="dek">Every frame, roughly in the order I shot them. Pick a country to narrow it down, then a city if you want to go further. Click any photo to look closer.</p>
     </div>
   </header>
 
@@ -63,6 +63,10 @@
     <div class="wrap">
       <div class="photo-filters" id="photoFilters">
         <!-- rendered from ../assets/site.js — one tab per country found in the data, plus "Best of" -->
+      </div>
+
+      <div class="city-filters" id="cityFilters">
+        <!-- rendered from ../assets/site.js — only shown once a country tab is active -->
       </div>
 
       <div id="gallery">
@@ -100,7 +104,7 @@
 <script src="../assets/site.js"></script>
 <script>
   renderPhotos('gallery', { previewOnly: false });
-  renderPhotoFilters('photoFilters', 'gallery');
+  renderPhotoFilters('photoFilters', 'cityFilters', 'gallery');
 </script>
 <script src="../assets/main.js"></script>
 </body>

@@ -72,6 +72,16 @@ window.SITE_DATA = {
 
   // Newest first — the homepage shows the first 4.
   articles: [
+    { slug: "every-great-photo-starts-with-learning-how-to-see",
+      title: "Every great photo starts with learning how to see",
+      excerpt: "The first time you pick up a camera, every setting can feel confusing but that confusion is the beginning of learning to see the world differently.",
+      dateLabel: "AUG 2026",
+      readTime: "3 MIN",
+      category: "PHOTOGRAPHY",
+      thumb: "https://picsum.photos/id/36/4179/2790",
+      thumbAlt: "A camera's parts laying on a table'"
+
+    },
     {
       slug: "the-boring-parts-of-shipping-a-side-project",
       title: "The boring parts of shipping a side project",

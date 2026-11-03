@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Routewise — Mehmet Burak</title>
+<title>Q-Read — Mehmet Burak</title>
 <meta name="description" content="A trip-planning tool that turns a rough list of places into an optimized day-by-day route.">
 <link rel="icon" href="../assets/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
@@ -55,17 +55,18 @@
       </a>
       <p class="eyebrow">Project</p>
       <!-- EDIT: project name -->
-      <h1>Routewise</h1>
+      <h1>Q-Read</h1>
       <!-- EDIT: one- or two-sentence summary -->
-      <p class="dek">A trip-planning tool that turns a rough list of places into an optimized day-by-day route, built to replace my own spreadsheet habit.</p>
+      <!--A chip designed to read data from a CQD detector (Quantum Colloidal Dot) then analyze, clean and send the data to a computer via bluetooth.-->
+      <p class="dek"> Development of a custom PCB-based readout system for colloidal quantum dot (CQD) detectors, integrating signal conditioning, data acquisition, noise filtering, embedded signal processing, and Bluetooth-based (Bluetooth Low Energy / BLE) wireless data transmission to a computer for analysis.</p>
     </div>
   </header>
 
   <div class="wrap">
     <!-- EDIT: role / stack / year / links — delete a cell if it doesn't apply -->
     <div class="spec-bar">
-      <div><strong>Role</strong><span>Designer &amp; Developer</span></div>
-      <div><strong>Stack</strong><span>React, Node, Maps API</span></div>
+      <div><strong>Role</strong><span>Electronics &amp; Signal Processing &amp; Data Acquisition Engineer</span></div>
+      <div><strong>Stack</strong><span>KiCAD, ESP32, BLE, Python, Signal Conditioning, LTspice</span></div>
       <div><strong>Year</strong><span>2026</span></div>
       <div><strong>Links</strong><span> <!-- <a href="#">Live site ↗</a> &nbsp;/&nbsp; <a href="#">Source ↗</a>--> </span></div>
     </div>
@@ -79,15 +80,21 @@
       <!-- EDIT: case-study body below — replace with your write-up -->
   <article class="wrap-narrow prose">
     <h2>Overview</h2>
-    <p>Every trip I planned started the same way: a spreadsheet with a list of places, a lot of tab-switching to a map to guess at distances, and a lot of manual reshuffling when I realized two "nearby" places were actually forty minutes apart. Routewise exists to skip that part.</p>
+    <p>Every type of system that has a detector must have a read-out system that takes it's values and makes sense of it. Well That even goes for CQD detectors.</p>
 
-    <p>You paste in a list of places you want to visit, and it lays them out across however many days you're there, grouping by proximity and respecting rough opening hours, so the plan you end up with is one you could actually walk without doubling back across town.</p>
+    <p>I have workes in a MEMS (Micro electronical-mechanical systems) fabrication company which was capable of making advanced CQD detectors and wanted make their own read-out circuit to both analyze their detectors performance and to have their own technology for R&amp;D purposes, to not be bound by constraints.</p>
 
+    <p>I was asked to design a chip which would be able to read the values coming in from the CQD detector's 16 data pins one by one repeatedly in a short time frame. Here is what what was so critical about it</p>
+    
     <h2>The problem</h2>
-    <p>Trip-planning tools I tried either wanted a lot of manual setup before they were useful, or optimized for "prettiest itinerary" over "itinerary you'd actually follow." I wanted something closer to a scheduling algorithm than a scrapbook — optimize the boring part, leave the interesting decisions to me.</p>
+    <p>To do so I had to design this chip in a way that it wouldn't got misleading values from the coupling of nearby lines and enviromental EMF. It also had to have almost no leakege on the capasitor or analog components as the signal coming in was very susceptable to disturbance. This meant that I both needed to choose my components very carefully and while designing the PCB layout, make sure no cross coupling EMF would occur.</p>
 
     <h2>The approach</h2>
-    <p>The core of it is a routing pass that clusters places by geographic proximity per day, then orders each day's stops to minimize backtracking, using the Maps API for real travel times rather than straight-line distance. The interface stays intentionally plain — a day-by-day list, drag to reorder, a map alongside for a sanity check.</p>
+    <p>To make sure that the data would be correct on the analog side I designen a CTIA (Capacitive Transimpedance Amplifier) that sums the signal coming for a period of T, which would then be divided by T to find the average signal received. On the digital end I decided to use median error correction and Baseline correction which get a measurement before letting the signal and subtracks it from original signal to remove initial charge on the capacitors of CTIA.</p>
+
+    <p>When it comes to keeping the signal clean I decided to use ground ring and seperataion of digital/analog compenents from each other to make the EMF as low as possible. Also covered the whole chip in metal except for where the bluetooth antenna would be to remove any enviromental noise. While designing the PCB layou rkept in ming the coupling of the wires so traces, lines and their directions were chosen with utmost care.</p>
+
+    <p>Bluetooth part was a bit more tricky. Initially what I though was to use an ESP32 chip with a BLE antenna but after consideration shielding the circuit with a metal cover and using an external antenna with the ESP32 that has an antenna connector instead of it's own was more logical. When the signal is transferred by BLE to a computer I used Python libraries like PyQT and matplotlib to visualize andd analyze the incoming data. İt was filtered here with the median error removal and in the end what we had was a clean signal showing us the value at each receptor's frequency as a comprehensible graph which can be used to make evaluations on the material scanned.</p>
 
     <!-- EDIT: optional screenshot grid — delete if not needed -->
     <!--
@@ -98,7 +105,9 @@
     -->
 
     <h2>The result</h2>
-    <p>I've used it to plan four trips of my own so far, and it's cut trip-planning time from a couple of evenings down to about twenty minutes of pasting in place names and nudging the order. The next thing on the list is handling multi-city trips, where the day-clustering logic needs to account for a change of base entirely.</p>
+    <p>I have designed a PCB circuit that is my own which is capable of both protecting from noise/EMF and amplifying the signal input while filtering out incorrect reads both while having a very high precision and low heating on the PCB traces.</p>
+
+    <p>This project has been very helpful to me as I have seen my capabilities in designing something just from an ideal piece of my imagination. Very thankful that I have had the experience and the people that trusted in me being capable of doing it.</p>
   </article>
 </main>
 

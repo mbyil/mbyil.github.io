@@ -45,12 +45,12 @@ window.SITE_DATA = {
 
   projects: [
     {
-      slug: "routewise",
-      title: "Routewise",
-      blurb: "A trip-planning tool that turns a rough list of places into an optimized day-by-day route, built to replace my own spreadsheet habit.",
-      tags: ["React", "Node", "Maps API"],
+      slug: "q-read",
+      title: "Q-Read",
+      blurb: "Custom PCB-based readout system for CQD detectors; integrating signal conditioning, data acquisition, noise filtering, embedded processing, and BLE data transmission to a computer.",
+      tags: ["KiCAD", "ESP32", "BLE", "Python", "Signal Conditioning", "LTspice"],
       thumb: "https://picsum.photos/id/180/600/375",
-      thumbAlt: "Routewise project screenshot"
+      thumbAlt: "Q-Read project screenshot"
     },
     {
       slug: "ledgerline",
